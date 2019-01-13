@@ -7,9 +7,9 @@ def line(array)
   else
     names_string = ""
     array.each.with_index do |name, number|
-      names_string.concat("#{number+1}. #{name}")
+      names_string.concat(" #{number+1}. #{name}")
     end
-    puts "The line is currently: #{names_string}"
+    puts "The line is currently:#{names_string}"
   end
 end
 
