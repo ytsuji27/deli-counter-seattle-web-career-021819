@@ -7,7 +7,7 @@ def line(array)
   else
     names_string = []
     array.each do |name|
-      
+      names_string.push("#{name.")
     return array
   end
 end
