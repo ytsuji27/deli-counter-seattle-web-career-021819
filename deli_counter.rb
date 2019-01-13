@@ -9,7 +9,7 @@ def line(array)
     array.each.with_index do |name, number|
       names_string.push("#{number}. #{name}")
       return "The line is currently: #{names_string}"
-    return array
+    end
   end
 end
 
